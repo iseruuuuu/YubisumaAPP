@@ -13,6 +13,13 @@
 		943A841F25BE8F7D00558F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943A841D25BE8F7D00558F42 /* Main.storyboard */; };
 		943A842125BE8F7E00558F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943A842025BE8F7E00558F42 /* Assets.xcassets */; };
 		943A842425BE8F7E00558F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943A842225BE8F7E00558F42 /* LaunchScreen.storyboard */; };
+		943A842D25BE958C00558F42 /* yubi.png in Resources */ = {isa = PBXBuildFile; fileRef = 943A842C25BE958C00558F42 /* yubi.png */; };
+		943A843025BE959A00558F42 /* yubi2.png in Resources */ = {isa = PBXBuildFile; fileRef = 943A842F25BE959A00558F42 /* yubi2.png */; };
+		943A843325BE961F00558F42 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 943A843225BE961F00558F42 /* hand.png */; };
+		94B0646225C110D0002E28FF /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0646125C110D0002E28FF /* SpeechService.swift */; };
+		94B0646625C11F36002E28FF /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0646525C11F36002E28FF /* GameOver.swift */; };
+		94B0646A25C121A0002E28FF /* Clear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0646925C121A0002E28FF /* Clear.swift */; };
+		94E5299525C160E4007C69AA /* title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E5299425C160E4007C69AA /* title.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		943A842025BE8F7E00558F42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		943A842325BE8F7E00558F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		943A842525BE8F7E00558F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943A842C25BE958C00558F42 /* yubi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yubi.png; sourceTree = "<group>"; };
+		943A842F25BE959A00558F42 /* yubi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yubi2.png; sourceTree = "<group>"; };
+		943A843225BE961F00558F42 /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+		94B0646125C110D0002E28FF /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		94B0646525C11F36002E28FF /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		94B0646925C121A0002E28FF /* Clear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear.swift; sourceTree = "<group>"; };
+		94E5299425C160E4007C69AA /* title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = title.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,13 @@
 				943A841725BE8F7D00558F42 /* AppDelegate.swift */,
 				943A841925BE8F7D00558F42 /* SceneDelegate.swift */,
 				943A841B25BE8F7D00558F42 /* ViewController.swift */,
+				94B0646525C11F36002E28FF /* GameOver.swift */,
+				94B0646925C121A0002E28FF /* Clear.swift */,
+				94E5299425C160E4007C69AA /* title.swift */,
+				94B0646125C110D0002E28FF /* SpeechService.swift */,
+				943A842C25BE958C00558F42 /* yubi.png */,
+				943A842F25BE959A00558F42 /* yubi2.png */,
+				943A843225BE961F00558F42 /* hand.png */,
 				943A841D25BE8F7D00558F42 /* Main.storyboard */,
 				943A842025BE8F7E00558F42 /* Assets.xcassets */,
 				943A842225BE8F7E00558F42 /* LaunchScreen.storyboard */,
@@ -124,6 +145,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943A843025BE959A00558F42 /* yubi2.png in Resources */,
+				943A842D25BE958C00558F42 /* yubi.png in Resources */,
+				943A843325BE961F00558F42 /* hand.png in Resources */,
 				943A842425BE8F7E00558F42 /* LaunchScreen.storyboard in Resources */,
 				943A842125BE8F7E00558F42 /* Assets.xcassets in Resources */,
 				943A841F25BE8F7D00558F42 /* Main.storyboard in Resources */,
@@ -137,9 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E5299525C160E4007C69AA /* title.swift in Sources */,
 				943A841C25BE8F7D00558F42 /* ViewController.swift in Sources */,
 				943A841825BE8F7D00558F42 /* AppDelegate.swift in Sources */,
 				943A841A25BE8F7D00558F42 /* SceneDelegate.swift in Sources */,
+				94B0646A25C121A0002E28FF /* Clear.swift in Sources */,
+				94B0646625C11F36002E28FF /* GameOver.swift in Sources */,
+				94B0646225C110D0002E28FF /* SpeechService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +321,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = Iseryuiseki.YubisumaAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,10 +341,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = Iseryuiseki.YubisumaAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
